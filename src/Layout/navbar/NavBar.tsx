@@ -1,25 +1,21 @@
 export const NavBar = () => {
-  {
-    /* 
-  const items: any = [
-    {
-      icon: <SettingOutlined />,
-      children: [
-        {
-          tabText: (
-            <a href="#Home" style={{ color: "white" }}>
-              Home
-            </a>
-          ),
-        },
-        {
-          tabText: <span>Home</span>,
-        },
-      ],
-    },
-  ];
-*/
-  }
+  //  const items: any = [
+  //     {
+  //       icon: <SettingOutlined />,
+  //       children: [
+  //         {
+  //           tabText: (
+  //             <a href="#Home" style={{ color: "white" }}>
+  //               Home
+  //             </a>
+  //           ),
+  //         },
+  //         {
+  //           tabText: <span>Home</span>,
+  //         },
+  //       ],
+  //     },
+  //   ];
 
   return (
     <>
