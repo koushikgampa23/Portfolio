@@ -1,6 +1,6 @@
-import { SettingOutlined } from "@ant-design/icons";
-
 export const NavBar = () => {
+  {
+    /* 
   const items: any = [
     {
       icon: <SettingOutlined />,
@@ -18,6 +18,8 @@ export const NavBar = () => {
       ],
     },
   ];
+*/
+  }
 
   return (
     <>
