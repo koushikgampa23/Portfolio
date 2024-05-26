@@ -1,0 +1,33 @@
+.card {
+    height: 100px;
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.gmailStyle {
+    background: linear-gradient(to top right, #C11E1B, #FFFFFF);
+}
+
+.linkedInStyle {
+    background: linear-gradient(to top right, #13506F, #FFFFFF);
+}
+
+.phoneStyle {
+    background: linear-gradient(to top right, #78B4D5, #FFFFFF);
+}
+
+.hackerrankStyle {
+    background: linear-gradient(to top right, #0D131D, #2EBD60);
+}
+
+.githubStyle {
+    background: linear-gradient(to top right,#ffffff,  #0D131D);
+}
+
+.leetCodeStyle {
+    background: linear-gradient(to top right,#0D131D, #FFA116);
+}

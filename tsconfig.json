@@ -21,6 +21,12 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.css",
+    "src/**/*.module.css",
+    "src/**/*.jpg",
+    "src/**/*.png",
+    "declarations.d.ts"
+, "src/Header/Layout.tsx"  ]
 }

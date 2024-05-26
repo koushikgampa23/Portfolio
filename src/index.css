@@ -1,10 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components{
+  .tabText{
+    @apply text-2xl font-bold;
+  }
+  .label{
+    @apply text-xl;
+  }
+  .sectionHeading {
+    @apply text-4xl font-bold;
+  }
+  .sectionSubHeading {
+    @apply text-xl;
+  }
+  .sectionStyle {
+    @apply flex flex-col gap-2 items-center;
+  }
+  .customContainer {
+    @apply flex flex-wrap justify-center w-full;
+  }
+  .primaryButton {
+    @apply bg-white text-black rounded-md text-sm lg:text-xl p-2 lg:p-3 mt-2 lg:mt-3 flex items-center gap-2 font-semibold w-full;
+  }
+  .textLength {
+    @apply flex max-w-[700px] text-xl;
+  }
+  .iconContainer {
+    @apply flex items-center gap-2;
+  }
+  .personalProjectContainer {
+    @apply flex justify-center gap-8 flex-wrap max-w-[1500px];
+  }
+  .sectionDistance {
+    @apply grid gap-[40px];
+  }
+  .sectionTopPadding {
+    @apply pt-10;
+  }
+  .socialIcons {
+    @apply w-[100px] h-[100px]
+  }
 }
 
 code {
