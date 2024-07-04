@@ -17,7 +17,7 @@ export const ProjectCard = ({ projectName, projectLink, thumbNail }: Props) => {
         />
         <span className="flex text-lg font-medium">{projectName}</span>
         <a href={projectLink} className="text-md flex items-center gap-2">
-          Demo <FaArrowAltCircleRight />
+          Code <FaArrowAltCircleRight />
         </a>
       </div>
     </div>

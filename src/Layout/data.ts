@@ -1,4 +1,8 @@
-import ThumbNail from "./tumbnail.jpg";
+// import ThumbNail from "./tumbnail.jpg";
+import SocialMedia from "./social media.png";
+import TranslateJson from "./translate application.png";
+import Sentiment from "./sentiment.png";
+import Movie from "./movie recommendation.png";
 import Resume from "../assests/koushikgampa_resume.pdf";
 import Profile from "../assests/profile.jpg";
 
@@ -97,24 +101,24 @@ export const PersonalData = {
     {
       projectName: "Social Media",
       projectLink: "https://github.com/koushikgampa23/Social-Media-Platform",
-      thumbNail: ThumbNail,
+      thumbNail: SocialMedia,
     },
     {
       projectName: "Song Lyrics Sentiment Analysis",
       projectLink:
         "https://github.com/koushikgampa23/song-lyrics-sentiment-analysis/blob/main/sentiment-analysis.ipynb",
-      thumbNail: ThumbNail,
+      thumbNail: Sentiment,
     },
     {
       projectName: "Movie Recommendation System",
       projectLink:
         "https://github.com/koushikgampa23/Movie-Recommendation-system/blob/main/movieRecommendation.ipynb",
-      thumbNail: ThumbNail,
+      thumbNail: Movie,
     },
     {
       projectName: "Translate Json",
       projectLink: "https://github.com/koushikgampa23/translate-json",
-      thumbNail: ThumbNail,
+      thumbNail: TranslateJson,
     },
   ],
   contact: {
